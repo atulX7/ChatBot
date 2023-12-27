@@ -39,7 +39,7 @@ Before diving into the Llama2 Medical Bot, ensure your system is equipped with:
    ```
 
 4. **Download Language Models and Data**:
-- Refer to the Langchain documentation for instructions on downloading and setting up the language model and vector store.
+- Refer to the Langchain documentation for instructions on downloading and setting up the language model and vector store from the code file.
 
 5. **Configure Paths and Settings**:
 - Set `DB_FAISS_PATH` and other configurations as required for your project.
@@ -58,7 +58,7 @@ Use the Llama2 Medical Bot to get answers to medical queries:
 4. Customize the bot's responses based on specific queries and contexts.
 
 ## Contributing
-We welcome contributions to the Llama2 Medical Bot! 🌟 Here's how you can contribute:
+We welcome contributions to the Medical ChatBot! 🌟 Here's how you can contribute:
 1. Fork the repository to your account.
 2. Create a new branch for your feature or bug fix.
 3. Implement your changes and ensure all tests pass.
