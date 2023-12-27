@@ -52,11 +52,16 @@ To kickstart your journey with the Llama2 Chat Bot:
 
 ## Usage
 Use the Chat Bot to get answers to Chat queries:
-1. Train the Chatbot using your custom data.
-2. Place your PDF files in DATA_PATH path.
-3. Run the ChatBot.py file using
+1. Train the Chatbot using your custom data:
+   a. Place your PDF files in DATA_PATH path.
+   b. Run:
    ```bash
-   python Chatbot.py
+   python ingest.py
+   ```
+   
+3. To Query the Chatbot, run
+   ```bash
+   python Chatbot.py -q <query>
    ```
 5. Customize the bot's responses based on specific queries and contexts.
 
@@ -74,4 +79,3 @@ This project is licensed under the [MIT License](License).
 For detailed guidance on usage, configuration, and extension, please refer to the Langchain documentation or contact the project maintainers.
 
 🚀 **Happy coding!** 🚀
-
