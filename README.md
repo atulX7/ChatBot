@@ -1,7 +1,7 @@
-# Open Source LLM Medical Bot 🩺🤖
+# Open Source LLM ChatBot 🩺🤖
 
 ## Introduction
-Welcome to the LLM using LLA-Ma 2 Medical Bot repository! This sophisticated tool is engineered to provide prompt medical information in response to user queries. Leveraging cutting-edge language models and vector stores, Llama2 Medical Bot stands as a beacon in digital healthcare assistance.
+Welcome to the LLM using LLA-Ma 2 ChatBot repository! This sophisticated tool is engineered to provide prompt Chat information in response to user queries. Leveraging cutting-edge language models and vector stores, Llama2 Chat Bot stands as a beacon in digital healthcare assistance.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -13,7 +13,7 @@ Welcome to the LLM using LLA-Ma 2 Medical Bot repository! This sophisticated too
 - [License](#license)
 
 ## Prerequisites
-Before diving into the Llama2 Medical Bot, ensure your system is equipped with:
+Before diving into the Llama2 Chat Bot, ensure your system is equipped with:
 - Python 3.6 or higher
 - Necessary Python packages (installable via pip):
   - `langchain`
@@ -28,8 +28,8 @@ Before diving into the Llama2 Medical Bot, ensure your system is equipped with:
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/langchain-medical-bot.git
-   cd langchain-medical-bot
+   git clone https://github.com/your-username/langchain-Chat-bot.git
+   cd langchain-Chat-bot
    ```
 
 
@@ -45,20 +45,20 @@ Before diving into the Llama2 Medical Bot, ensure your system is equipped with:
 - Set `DB_FAISS_PATH` and other configurations as required for your project.
 
 ## Getting Started
-To kickstart your journey with the Llama2 Medical Bot:
+To kickstart your journey with the Llama2 Chat Bot:
 1. Set up your environment and install packages as outlined in [Installation](#installation).
 2. Configure the project (DB_FAISS_PATH and other custom configurations).
 3. Prepare the language model and data following the Langchain documentation.
 
 ## Usage
-Use the Llama2 Medical Bot to get answers to medical queries:
+Use the Llama2 Chat Bot to get answers to Chat queries:
 1. Start the bot using the provided script or within your application.
-2. Submit a medical query to the bot.
+2. Submit a Chat query to the bot.
 3. Receive a detailed response, including sources if available.
 4. Customize the bot's responses based on specific queries and contexts.
 
 ## Contributing
-We welcome contributions to the Medical ChatBot! 🌟 Here's how you can contribute:
+We welcome contributions to the Chat ChatBot! 🌟 Here's how you can contribute:
 1. Fork the repository to your account.
 2. Create a new branch for your feature or bug fix.
 3. Implement your changes and ensure all tests pass.
