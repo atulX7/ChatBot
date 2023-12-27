@@ -1,7 +1,7 @@
-# Llama2 Medical Bot 🩺🤖
+# Open Source LLM Medical Bot 🩺🤖
 
 ## Introduction
-Welcome to the Llama2 Medical Bot repository! This sophisticated tool is engineered to provide prompt medical information in response to user queries. Leveraging cutting-edge language models and vector stores, Llama2 Medical Bot stands as a beacon in digital healthcare assistance.
+Welcome to the LLM using LLA-Ma 2 Medical Bot repository! This sophisticated tool is engineered to provide prompt medical information in response to user queries. Leveraging cutting-edge language models and vector stores, Llama2 Medical Bot stands as a beacon in digital healthcare assistance.
 
 ## Table of Contents
 - [Introduction](#introduction)
