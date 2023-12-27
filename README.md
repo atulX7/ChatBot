@@ -51,11 +51,14 @@ To kickstart your journey with the Llama2 Chat Bot:
 3. Prepare the language model and data following the Langchain documentation.
 
 ## Usage
-Use the Llama2 Chat Bot to get answers to Chat queries:
-1. Start the bot using the provided script or within your application.
-2. Submit a Chat query to the bot.
-3. Receive a detailed response, including sources if available.
-4. Customize the bot's responses based on specific queries and contexts.
+Use the Chat Bot to get answers to Chat queries:
+1. Train the Chatbot using your custom data.
+2. Place your PDF files in DATA_PATH path.
+3. Run the ChatBot.py file using
+   ```bash
+   python Chatbot.py
+   ```
+5. Customize the bot's responses based on specific queries and contexts.
 
 ## Contributing
 We welcome contributions to the Chat ChatBot! 🌟 Here's how you can contribute:
