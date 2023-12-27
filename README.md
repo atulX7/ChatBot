@@ -28,8 +28,8 @@ Before diving into the Llama2 Chat Bot, ensure your system is equipped with:
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/langchain-Chat-bot.git
-   cd langchain-Chat-bot
+   git clone https://github.com/atulX7/ChatBot.git
+   cd Chatbot
    ```
 
 
