@@ -66,7 +66,7 @@ We welcome contributions to the Llama2 Medical Bot! 🌟 Here's how you can cont
 5. After review, your contributions may be merged into the main codebase.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](License).
 
 For detailed guidance on usage, configuration, and extension, please refer to the Langchain documentation or contact the project maintainers.
 
