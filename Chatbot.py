@@ -1,34 +1,15 @@
 # Imports and Initial Setup:
+import argparse
 
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
-from langchain.document_loaders import PyPDFLoader, DirectoryLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.prompts import PromptTemplate
 from langchain.llms import CTransformers
 from langchain.chains import RetrievalQA
 from transformers import AutoTokenizer
-import chainlit as cl
 
 DATA_PATH = 'data/'
 DB_FAISS_PATH = 'vectorstore/db_faiss'
-
-# Create Vector Database Function:
-
-def create_vector_db():
-    loader = DirectoryLoader(DATA_PATH, glob='*.pdf', loader_cls=PyPDFLoader)
-    documents = loader.load()
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-    texts = text_splitter.split_documents(documents)
-
-    embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2', model_kwargs={'device': 'cpu'})
-    db = FAISS.from_documents(texts, embeddings)
-    db.save_local(DB_FAISS_PATH)
-
-if __name__ == "__main__":
-    create_vector_db()
-	
-# Define Custom Prompt and QA Chain:
 
 custom_prompt_template = """
 Context: {context}
@@ -67,14 +48,32 @@ def prepare_query(query, max_length=512):
     truncated_query = tokenizer.decode(inputs["input_ids"][0], skip_special_tokens=True)
     return truncated_query
 
-# Final Query function
 
+
+# Final Query function
 def final_result(query):
     prepared_query = prepare_query(query)
     qa_result = qa_bot()
     response = qa_result({'query': prepared_query})
     return response
 
-# Make the Query
 
-print(final_result("Query"))
+def get_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--query",
+        type=str,
+        required=True,
+        help="Query",
+    )
+    args = parser.parse_args()
+    return args
+
+
+def run():
+    args = get_args()
+    print(final_result(args.query))
+
+# Main script
+if __name__ == "__main__":
+    run()
