@@ -28,12 +28,13 @@ Before diving into the Llama2 Medical Bot, ensure your system is equipped with:
 ## Installation
 1. **Clone the Repository**:
 
-git clone https://github.com/your-username/langchain-medical-bot.git
-cd langchain-medical-bot
+```bash
+   git clone https://github.com/your-username/langchain-medical-bot.git
+   cd langchain-medical-bot
 
 
 2. **Set Up a Python Virtual Environment** (Optional but recommended):
-
+```bash
 pip install -r requirements.txt
 
 
