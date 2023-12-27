@@ -33,9 +33,10 @@ Before diving into the Llama2 Medical Bot, ensure your system is equipped with:
    ```
 
 
-2. **Set Up a Python Virtual Environment** (Optional but recommended):
-
+2. **Install the dependencies:
+   ```bash
    pip install -r requirements.txt
+   ```
 
 4. **Download Language Models and Data**:
 - Refer to the Langchain documentation for instructions on downloading and setting up the language model and vector store.
@@ -48,7 +49,6 @@ To kickstart your journey with the Llama2 Medical Bot:
 1. Set up your environment and install packages as outlined in [Installation](#installation).
 2. Configure the project (DB_FAISS_PATH and other custom configurations).
 3. Prepare the language model and data following the Langchain documentation.
-4. Launch the bot through the provided Python script or integrate it into your application.
 
 ## Usage
 Use the Llama2 Medical Bot to get answers to medical queries:
@@ -70,5 +70,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 For detailed guidance on usage, configuration, and extension, please refer to the Langchain documentation or contact the project maintainers.
 
-🚀 **Happy coding with Llama2 Medical Bot!** 🚀
+🚀 **Happy coding!** 🚀
 
