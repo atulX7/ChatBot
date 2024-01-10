@@ -57,13 +57,16 @@ Use the Chat Bot to get answers to Chat queries:
    b. Run:
    ```bash
    python ingest.py
-   ```
-   
-3. To Query the Chatbot, run
+   ```  
+2. To Query the Chatbot, run
    ```bash
    python Chatbot.py -q <query>
    ```
-5. Customize the bot's responses based on specific queries and contexts.
+3. To run locally (ChatBot using Chainlit)
+   ```bash
+   chainlit run chainlit.py -w
+   ```  
+4. Customize the bot's responses based on specific queries and contexts.
 
 ## Contributing
 We welcome contributions to the Chat ChatBot! 🌟 Here's how you can contribute:
